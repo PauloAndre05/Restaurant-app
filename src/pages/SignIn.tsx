@@ -33,11 +33,19 @@ export const SignIn = () => {
                     </div>
 
                     <div className="flex flex-col gap-2 w-80">
-                        <label 
-                            htmlFor="password" 
-                            className="font-bold text-gray-900">
-                            Password 
-                        </label>
+                        <div className="flex justify-between items-center">
+                            <label 
+                                htmlFor="password" 
+                                className="font-bold text-gray-900">
+                                Password 
+                            </label>
+
+                            <a 
+                                href="#" 
+                                className="text-white text-sm hover:font-bold">
+                                Forgot your password?
+                            </a>
+                        </div>
                         
                         <input 
                             type="password" 
