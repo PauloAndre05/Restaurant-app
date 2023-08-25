@@ -18,7 +18,7 @@ export function Header() {
                     </li>
 
                     <li className='bg-green-800 py-1 px-3 rounded'>
-                        <Link to='/authSignIn'>Login</Link>
+                        <Link to='/authSignIn'>Sign In</Link>
                     </li>
                 </ul>
             </nav>
