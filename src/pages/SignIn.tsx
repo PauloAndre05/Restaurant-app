@@ -1,14 +1,28 @@
 import { FcGoogle } from "react-icons/fc";
 import { FaSquareFacebook } from "react-icons/fa6";
 
+
+const handleSubmit = (e) => {
+    e.preventDefault()
+} 
+
 export const SignIn = () => {
     return(
         <section className="w-full h-screen bg-bgSignIn bg-cover bg-center flex justify-center items-center bg-blend-color bg-[#000000d3]">
             <div className="bg-[#ffffff49] p-10 rounded">
             <h1 className="font-bold text-3xl mb-10 text-center text-white">Rest<span className="text-black">App</span></h1>
-                <form className="flex flex-col gap-4 ">
+                <form 
+                    className="flex flex-col gap-4" 
+                    onSubmit={handleSubmit}
+                >
+
                     <div className="flex flex-col gap-2 w-80">
-                        <label htmlFor="email" className="font-bold text-gray-900">Email or phone number</label>
+                        <label 
+                            htmlFor="email" 
+                            className="font-bold text-gray-900">
+                            Email or phone number
+                        </label>
+
                         <input 
                             type="email" 
                             name="email" 
@@ -19,7 +33,12 @@ export const SignIn = () => {
                     </div>
 
                     <div className="flex flex-col gap-2 w-80">
-                        <label htmlFor="password" className="font-bold text-gray-900">Password </label>
+                        <label 
+                            htmlFor="password" 
+                            className="font-bold text-gray-900">
+                            Password 
+                        </label>
+                        
                         <input 
                             type="password" 
                             name="password" 
