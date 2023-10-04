@@ -8,7 +8,7 @@ const handleSubmit = (e) => {
 
 export const SignIn = () => {
     return(
-        <section className="w-full h-screen bg-bgSignIn bg-cover bg-center flex justify-center items-center bg-blend-color bg-[#000000d3]">
+        <section className="w-full h-screen bg-bgSignIn bg-cover bg-center flex justify-center items-center bg-blend-color bg-[#000000bd]">
             <div className="bg-[#ffffff49] p-10 rounded">
             <h1 className="font-bold text-3xl mb-10 text-center text-white">Rest<span className="text-black">App</span></h1>
                 <form 

@@ -1,16 +1,16 @@
-const handleSubmit = (e) => {
+/* const handleSubmit = (e) => {
     e.preventDefault()
-} 
+}  */
 
 export const CreateCount = () => {
     return(
-        <section className="w-full p-10 bg-bgSignIn bg-cover bg-center flex justify-center items-center bg-blend-color bg-[#000000d3]">
+        <section className="w-full h-screen bg-bgSignIn bg-cover bg-center flex justify-center items-center bg-blend-color bg-[#000000bd]">
             <div className="bg-[#ffffff49] px-10 py-5 rounded">
                 <h1 className="font-bold text-3xl mb-4 text-center text-white">Rest<span className="text-black">App</span></h1>
                 <h2 className="mb-2 font-bold text-white text-center">Create a count</h2>
                 <form 
                     className="flex flex-col gap-4 "
-                    onSubmit={handleSubmit}
+                    /* onSubmit={handleSubmit} */
                 >
                     
                     <div className="flex flex-col gap-2 w-80">

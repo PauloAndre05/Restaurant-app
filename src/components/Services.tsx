@@ -15,9 +15,7 @@ export const Services = () => {
                         </p>
                         <button className="bg-gray-900 text-white rounded p-2">Encomendar</button>
                 </div>
-            </div>
-                
-                
+            </div>  
             </div>  
         </section>        
     )

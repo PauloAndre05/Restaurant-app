@@ -1,16 +1,22 @@
 import { Banner } from "../components/Banner";
-import { Header } from "../components/Header";
 import { Services } from "../components/Services";
 import { Foods } from "../components/Foods";
 import { Newsletter } from "../components/Newsletter";
+import { Equipe } from "../components/Equipe";
+import { About } from "../components/About";
+import { Menu } from "../components/Menu";
+import { Team } from "../components/Team";
 
 export function Home() {
     return (
         <div>
-            <Header />
             <Banner />
+            <About />
             <Foods />
+            <Menu />
+            <Team />
             <Services />
+            <Equipe />
             <Newsletter />
         </div>
     )
