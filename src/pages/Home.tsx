@@ -6,18 +6,20 @@ import { Equipe } from "../components/Equipe";
 import { About } from "../components/About";
 import { Menu } from "../components/Menu";
 import { Team } from "../components/Team";
+import { Footer } from "../components/Footer";
 
 export function Home() {
     return (
         <div>
             <Banner />
-            <About />
-            <Foods />
             <Menu />
-            <Team />
+            <Foods />
             <Services />
+            <About />
+            <Team />
             <Equipe />
             <Newsletter />
+            <Footer />
         </div>
     )
 }
